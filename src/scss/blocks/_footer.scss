@@ -1,0 +1,16 @@
+.footer{
+    margin-top: 88px;
+    padding: 24px 0;
+    background-color: #000;
+
+    font: 400 12px / 1.8 "Montserrat", sans-serif;
+    text-transform: capitalize;
+    color: #cbcbcb;
+
+    @include mobile {
+        margin-top: 24px;
+        padding: 8px 0;
+    }
+
+}
+

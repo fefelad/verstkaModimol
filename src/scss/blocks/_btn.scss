@@ -1,0 +1,31 @@
+.bnt, a.btn {
+    display: inline-block;
+    padding: 8px;
+    min-width: 184px;
+    height: 40px;
+    font: 400 14px / 1.71429 "Montserrat", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: #0c0c0c;
+    background: #fff;
+
+    transition: all 0.2s ease-in;
+    
+
+    &:hover{
+        background: #EDEDED;
+
+    }
+
+    &--small{
+        min-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    @include mobile {
+        padding: 8px 9px;
+        min-width: unset;
+    }
+}

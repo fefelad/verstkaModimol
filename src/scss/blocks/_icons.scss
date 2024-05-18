@@ -1,0 +1,30 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 24px;
+	height: 24px;
+}
+
+.icon--person{
+	fill: #202020;
+}
+
+.icon--favorite{
+	stroke-width: 2px;
+	stroke: #202020;
+	fill: white;
+}
+
+.icon--bag{
+	fill: #202020;
+}
+
+.icon--menu{
+	fill: #202020;
+}

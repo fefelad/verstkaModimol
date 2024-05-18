@@ -1,0 +1,50 @@
+:root {
+	--container-width: 1254px;
+	--container-padding: 15px;
+
+	--font-main: Montserrat,sans-serif;
+	--font-accent: 'Montserrat', sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #fff;
+	--text-color: #000;
+	--accent: #ac182c;
+	--link-color: #2578c8;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+
+
+	//color
+	--primary: #748c70;
+	--black:#0c0c0c;
+	--white:#fff;
+	--blue:#7DC3EB;
+	--green:#748c70;
+	--olive:#909225;
+	--navy:#19418E;
+	--pink:#D0A5EA;
+	--primary-primary25:#f0f2ef;
+	--primary-primary50:#d1d9cf;
+	--primary-primary100:#b2bfaf;
+	--primary-primary200:#a2b39f;
+	--primary-primary300:#93a690;
+	--primary-primary400:#839980;
+	--primary-primary-600:#5a6d57;
+	--primary-primary-700:#404e3e;
+	--primary-primary-750:#343e32;
+	--neutra-graydeded:#868686;
+
+
+	// fonts
+
+	--font-family: "Montserrat", sans-serif;
+
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

@@ -1,0 +1,25 @@
+//important-перебивает изначальные базовые свойства свайпера
+.swiper{
+    width: 100%;
+    padding-bottom: 32px !important;
+
+    @include mobile {
+        padding-bottom: 42px !important;
+    }
+}
+
+.swiper-pagination-bullet{
+    width: 14px !important;
+    height: 14px !important;
+    background-color: #ADADAD !important;
+    opacity: 1 !important;
+
+    @include mobile {
+        width: 8px !important;
+        height: 8px !important;
+    }
+}
+
+.swiper-pagination-bullet-active{
+    background-color:#DFDFDF !important;
+}

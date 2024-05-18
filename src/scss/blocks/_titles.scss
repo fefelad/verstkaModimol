@@ -1,0 +1,11 @@
+.title{
+	font: 600 32px / 1.4 "Montserrat", sans-serif;
+	text-transform: capitalize;
+	color: #0c0c0c;
+
+	@include mobile {
+		font: 700 20px / 1.4 "Montserrat", sans-serif;
+		text-transform: capitalize;
+		color: #0c0c0c;
+	}
+}

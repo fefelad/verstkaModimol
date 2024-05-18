@@ -1,0 +1,28 @@
+.account{
+
+        display: flex;
+        align-items:center;
+        gap: 24px;
+
+        @include tablet {
+            gap: 12px;
+        }
+
+    a{
+        display: inline-block;
+        transition: all 0.2s ease-in;
+    }
+
+    a:hover{
+        background: #ededed;
+
+    }
+}
+
+.account__menu{
+    display: none;
+
+    @include mobile {
+        display: block;
+    }
+}

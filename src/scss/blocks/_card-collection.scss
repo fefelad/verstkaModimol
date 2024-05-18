@@ -1,0 +1,18 @@
+.card-collection{
+    position: relative;
+}
+
+
+.card-collection__link{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+
+    @include mobile {
+        position: static;
+        font: 400 14px / 1.71429 "Montserrat", sans-serif;
+        text-transform: capitalize;
+        text-align: left;
+        color: #0c0c0c;
+    }
+}

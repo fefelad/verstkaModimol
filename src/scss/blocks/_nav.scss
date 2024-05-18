@@ -1,0 +1,29 @@
+
+.nav {
+	font: 400 18px / 1.8;
+	font-family: var(--font-family);
+	text-transform: capitalize;
+	text-align: center;
+	color: #404040;
+
+	@include tablet {
+		font-size: 16px;
+	}
+}
+.nav__list {
+	display: flex;
+	column-gap: 30px;
+
+
+	@include tablet {
+		column-gap: 15px;
+	}
+
+	a{
+		color: #404040;	
+	}
+
+	a.active{
+		color: #000;
+	}
+}

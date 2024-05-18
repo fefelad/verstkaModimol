@@ -1,0 +1,19 @@
+.top-info{
+    padding-top: 8px;
+    padding-bottom: 7px;
+    background-color: var(--primary-primary-600);
+    font: 600 12px "Montserrat", sans-serif;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: #fff;
+
+
+    @include mobile {
+        padding: 0px;
+        font: 400 10px / 1.4 "Montserrat", sans-serif;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+    }
+}
+
